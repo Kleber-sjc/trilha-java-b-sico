@@ -8,7 +8,7 @@ public class ContaTerminal {
        //Obter pala scaner os valores digitados no terminal
        //Exibir a mensagem conta criada
     
-       System.out.println("\n==== Olá!, seja bem vindo ao Banco DIO. ====\n");
+       System.out.println("\n== Olá!, seja bem vindo ao Banco DIO. ==\n");
     
        float saldo = 237.48f;
 
