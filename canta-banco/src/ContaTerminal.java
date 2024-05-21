@@ -4,19 +4,13 @@ public class ContaTerminal {
     public static void main(String[] args) throws Exception {
         Scanner teclado = new Scanner(System.in);
        //TODO:Conhecer e importar a casse Scaner
-
        //Exibir as mensagens para o nosso usuário
-
        //Obter pala scaner os valores digitados no terminal
-
        //Exibir a mensagem conta criada
+    
        System.out.println("\n==== Olá!, seja bem vindo ao Banco DIO. ====\n");
     
        float saldo = 237.48f;
-       //int conta = teclado.nextInt();
-       //int agencia = teclado.nextInt();
-       //String nome= teclado.nextLine();
-
 
        System.out.print( "Digite o nome de usuário: ");
        String nome = teclado.nextLine();
