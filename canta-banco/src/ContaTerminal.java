@@ -15,11 +15,11 @@ public class ContaTerminal {
        System.out.print( "Digite o nome de usuário: ");
        String nome = teclado.nextLine();
        System.out.print( "Digite o número da agência: ");
-       int agencia = teclado.nextInt();
-       System.out.print( "Digite o número da conta ");
+      String agencia = teclado.nextLine();
+       System.out.print( "Digite o número da conta: ");
        int conta = teclado.nextInt();
-       System.out.printf("\nO saldo em conta é R$"+saldo);
-       System.out.println("\nOlá! "+nome+",obrigado por criar uma conta em nosso banco, sua agência é "+agencia+ ",conta "+conta+" e seu saldo "+saldo+" já está disponivel para saque.\n\n");
+       System.out.printf("O saldo em conta é R$"+saldo+"\n");
+       System.out.print("\n*Olá! "+nome+",obrigado por criar uma conta em nosso banco, sua agência é "+agencia+ ",conta "+conta+" seu saldo é"+saldo+" já está disponível para saque.*\n\n");
 
 
 
